@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Wel';
+    src: url(../assets/font/18122.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../assets/font/20806.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main .container .text .opis:hover{
+    font-family: 'Mon';
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    background-color: #8ABF54;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .3s;
+    
+}
+.main .container .name .glav{
+    font-family: 'Wel';
+    font-size: 26px;
+    color: #8ABF54;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.main .container .name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background: url(../assets/img/Frame\ 14.png);
+}
+.main .container .line{
+    width: 100%;
+    height: 12px;
+    background-color: #8ABF54;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .container .blocks .linetwo{
+    width: 2px;
+    height: 100%;
+    background-color: #8ABF54;
+    border-radius: 8px;
+}
+.main .container .block1{
+    display: flex;
+    justify-content: space-between;
+}
+.main .container  .block1 .photos{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 450px;
+    justify-content: space-between;
+    
+}
+.main .container .block1 .photos .photo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main .container .block1 .photos .photo .frst{
+    width: 225px;
+    height: 215px;
+    background: url(../img/маш1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: .5s;
+}
+.main .container  .block1 .photos .photo .frst:hover{
+  
+    scale: 1.1;
+    transition: .3s;
+}
+.main .container .block1 .photos .photo .scnd{
+    width: 225px;
+    height: 215px;
+    background: url(../img/маш2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: .5s;
+}
+.main .container  .block1 .photos .photo .scnd:hover{
+
+    scale: 1.1;
+    transition: .3s;
+}
+.main .container .block1 .photos .phototwo{
+    display: flex;
+    justify-content: space-between;
+}
+.main .container .block1 .photos .phototwo .thd{
+    width: 225px;
+    height: 215px;
+    background: url(../img/маш3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: .5s;
+}
+.main .container .block1 .photos .phototwo .thd:hover{
+
+    scale: 1.1;
+    transition: .3s;
+}
+.main .container .block1 .photos .phototwo .fth{
+    width: 225px;
+    height: 215px;
+    background: url(../img/маш4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: .5s;
+}
+.main .container .block1 .photos .phototwo .fth:hover{
+
+    scale: 1.1;
+    transition: .3s;
+}
+
+.main .container .text .opis{
+    font-family: 'Mon';
+    font-size: 18px;
+    color: #8ABF54;
+    font-weight: 300;
+    background-color: rgba(255,255,255,0.9);
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+.main .container .text .glav{
+    font-family: 'Wel';
+    font-size: 20px;
+    color: #8ABF54;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+.main .container .block1 .input{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+.main .container .block1 .input .frst{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.main .container .block1 .input .frst .ver{
+    display: flex;
+    flex-direction: column;
+}
+.main .container .block1 .input .frst label{
+    font-size: 16px;
+    font-family: 'Mon';
+    color: #8ABF54;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.main .container .block1 .input .frst input{
+    background: none;
+    border: 1px solid #8ABF54;
+    border-radius: 8px;
+    height: 50px;
+    width: 240px;
+}
+.main .container .block1 .input .frst input{
+    padding-left: 10px;
+}
+.main .container .block1 .input .frst input::placeholder{
+    color: #8ABF54;
+}
+.main .container .block1 .input .frst input::-webkit-input-placeholder{
+    color: #8ABF54;
+}
+.main .container .block1 .input .frst input::-moz-placeholder{
+    color: #8ABF54;
+}
+.main .container .block1 .input .frst input::-ms-input-placeholder{
+    color: #8ABF54;
+}
+.main .container .block1 .input .bron{
+    height: 50px;
+    width: 240px;
+    color: white;
+    background-color: #8ABF54;
+    border-radius: 8px;
+    font-family: 'Mon';
+    font-size: 16px;
+    border: none;
+    transition: .5s;
+}
+.main .container .block1 .input .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main .container .block1 .input .bron:hover{
+    height: 50px;
+    width: 240px;
+    color: #8ABF54;
+    background: none;
+    border: 1px solid #8ABF54;
+    border-radius: 8px;
+    font-family: 'Mon';
+    font-size: 16px;
+    transition: .3s;
+}
+@media(max-width:1200px){
+    .container{
+        width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main .container .block1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .main .container .block1 .input{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        width: 766px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media(max-width:766px){
+    .container{
+        width: 576px;
+    }
+}
+@media(max-width: 576px){
+    .container{
+        width: 480px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main .container .input{
+        width: 470px !important;
+    }
+    .main .container .input .ver input{
+        width: 200px !important;
+    }
+    .main .container .block1 .photos .photo .frst{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos .photo .frst:hover{
+        width: 160px;
+        height: 160px;
+    }
+    
+    .main .container .block1 .photos .photo .scnd{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos .photo .scnd:hover{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos .phototwo .thd{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos .phototwo .thd:hover{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos{
+        width: 370px;
+        height: 370px;
+    }
+    .main .container .block1 .photos .phototwo .fth{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos .phototwo .fth:hover{
+        width: 160px;
+        height: 160px;
+    }
+    .main .container .block1 .photos{
+        margin-bottom: 20px !important;
+    }
+}
+@media(max-width:480px){
+    .container{
+        width: 300px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .main .container .input{
+        width: 290px !important;
+    }
+    .main .container .input .ver input{
+        width: 140px !important;
+    }
+    .main .container .block1 .photos .photo .frst{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .main .container .block1 .photos .photo .scnd{
+        width: 150px;
+        height: 150px;
+    }
+    .main .container .block1 .photos .phototwo .thd{
+        width: 150px;
+        height: 150px;
+    }
+    .main .container .block1 .photos{
+        width: 285px;
+        height: 290px;
+    }
+    .main .container .block1 .photos .phototwo .fth{
+        width: 150px;
+        height: 150px;
+    }
+    .main .container .block1 .photos{
+        margin-bottom: 20px !important;
+    }
+}
